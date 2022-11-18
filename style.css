@@ -30,3 +30,21 @@ audio {
   <source src="./Grammer/G" type="audio/mp3" />
 </audio>
 */
+
+#author{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: fixed;
+  z-index: 1000;
+    right: 30px;
+    bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgb(120 120 120 / 50%);
+    /* line-height: 0; */
+    overflow: hidden;
+    background: whitesmoke;
+    font-size: 1.2rem;
+    padding:0 1.7rem;
+    color:lightsalmon;
+    font-weight: 600;
+    cursor: help;
+}
