@@ -37,6 +37,7 @@ audio {
   z-index: 1000;
     right: 30px;
     bottom: 15px;
+    border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 4px rgb(120 120 120 / 50%);
     /* line-height: 0; */
