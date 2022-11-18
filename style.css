@@ -4,15 +4,29 @@ span {
 
 .audio {
   position: absolute;
-  top: -15%;
+  top: -10%;
   bottom: 50%;
 }
 audio {
-  height: 35px;
+  height: 30px;
   width: 400px;
+  border: 1.3px solid orangered;
+  border-radius: 15px;
+}
+
+.grammar{
+  height: 1.9rem;
+  width: 18.6rem;
+  margin-top: -2.12rem;
 }
 /* 
 <audio controls class="audio" id="audio">
     <source src="./Track/" type="audio/mp3" />
 </audio> 
     */
+
+    /* 
+<audio controls class="audio grammar" id="audio">
+  <source src="./Grammer/G" type="audio/mp3" />
+</audio>
+*/
