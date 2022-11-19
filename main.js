@@ -1,11 +1,15 @@
 // </audio> Track
 
-const myT= document.querySelectorAll('span')
+const allSpan= document.querySelectorAll('span')
+const allAudio= document.querySelectorAll('audio')
 
-myT.forEach((data)=>{
+allSpan.forEach((loadSpan)=>{
+  const spanInner=  loadSpan.innerHTML
 
-  let k=  data.innerHTML
-
-  console.log(k.includes('audio>Track'))
+  if(spanInner.includes('audio> Track')){
+    allAudio.forEach((element)=>{
+      element.classList.add('audioTrack')
+    })
+  }
 })
 
